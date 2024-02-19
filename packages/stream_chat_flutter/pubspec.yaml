@@ -44,7 +44,10 @@ dependencies:
   thumblr: ^0.0.4
   url_launcher: ^6.1.12
   video_player: ^2.7.0
-  video_thumbnail: ^0.5.3
+  video_thumbnail:
+    git:
+      url: git@github.com:cristianoAredes-leet/video_thumbnail.git
+      ref: master
 
 flutter:
   plugin:
